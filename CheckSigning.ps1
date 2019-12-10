@@ -8,7 +8,7 @@
 Install-Module -Name PartnerCenter -AllowClobber -Scope CurrentUser
 Connect-PartnerCenter
 
-$file = "C:\Users\fsc\Documents\PartnerCenterCode\CSP Customers.xlsx"
+$file = "C:\PartnerCenterCode\CSP Customers.xlsx"
 $sheetName = "Customers"
 $CloudTemplateID = '998b88de-aa99-4388-a42c-1b3517d49490'
 $CustomerTemplateID = '117a77b0-9360-443b-8795-c6dedc750cf9'
