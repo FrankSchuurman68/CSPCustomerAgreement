@@ -30,8 +30,8 @@ for ($i=1; $i -le $rowMax-1; $i++)
 
 # Retrieve the values from the Excel File (Public Code)
 $MicrosoftID = $sheet.Cells.Item($rowID+$i,$colID).text
-$CompanyName = $sheet.Cells.Item($rowName+$i,$colName).text
-$DomainName = $sheet.Cells.Item($rowDomain+$i,$colDomain).text
+#$CompanyName = $sheet.Cells.Item($rowName+$i,$colName).text
+#$DomainName = $sheet.Cells.Item($rowDomain+$i,$colDomain).text
 
 # We only want to alter the Customer with this Partner Status. For Advisor Partner status fi, we are unable to set a New Agreement, resulting in an Error.
 $PartnerStatus = Get-PartnerCustomer -CustomerId $MicrosoftID
