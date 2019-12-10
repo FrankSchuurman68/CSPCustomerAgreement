@@ -1,7 +1,7 @@
 # KISS Script to use a Excel File with CSP customers, exported from 
 # the Partner Portal and add a New Customer Agreement.
 #
-# Created and Maintained by FSC: 10-12-2010
+# Created and Maintained by FSC: 10-12-2019
 #
 # #####################################################################
 
